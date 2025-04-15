@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Interview_Preparation.Classes
+﻿namespace Interview_Preparation.Classes
 {
-    public class MultipleInheritence : Employee, Inheritence
+    //public class MultipleInheritence : Employee, Inheritence
+    public class MultipleInheritence : Employee
     {
+        public MultipleInheritence()
+        {
+            Console.WriteLine("Multiple inheritence is not support in c#");
+        }
     }
 }

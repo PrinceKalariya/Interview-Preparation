@@ -12,9 +12,9 @@
             Console.WriteLine("Employee Id");
         }
 
-        private void Name()
+        public void Name()
         {
-            Console.WriteLine("Employee Name");
+            Console.WriteLine("Employee Name from employee class");
         }
 
         public void Salary()
